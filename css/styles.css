@@ -1,0 +1,64 @@
+body
+{
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background:#808d8a;
+}
+
+.main-content {
+  flex: 1;
+}
+.main-content {
+  flex: 1;
+}
+.img-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20%;
+}
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 50%;
+  height: auto;
+}
+.img-container img:nth-child(1) {
+  left: 72.5%; /* Adjust the offset as needed */
+  width: 35%;
+}
+.img-container img:nth-child(2) {
+  left: 52.5%; /* Adjust the offset as needed */
+  width: 45%;
+}
+.img-container img:nth-child(3) {
+  left: 25%; /* Adjust the offset as needed */
+  width: 60%;
+}
+.img-container img:nth-child(4) {
+  left: -10%; /* Adjust the offset as needed */
+  width: 85%;
+}
+@media (max-width: 768px) {
+  .img-container {
+    min-height: 200px; /* Adjust for smaller screens */
+  }
+  .img-container img {
+    width: 90%; /* Adjust image size for smaller screens */
+  }
+  .img-container img:nth-child(1) {
+    left: 60%; /* Adjust offset for smaller screens */
+  }
+  .img-container img:nth-child(2) {
+    left: 45%; /* Adjust offset for smaller screens */
+  }
+  .img-container img:nth-child(3) {
+    left: 25%; /* Adjust offset for smaller screens */
+  }
+  .img-container img:nth-child(4) {
+    left: -2.5%; /* Adjust offset for smaller screens */
+  }
+}
+.bodyGroup {
+  width: 100%;
+  height: 100%;
+}
