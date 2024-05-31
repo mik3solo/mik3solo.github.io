@@ -1,3 +1,21 @@
+
+.brandType1 {
+  font-family: "League Spartan", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Use a value from 100 to 900 */
+  font-style: normal;
+}
+
+.brandType2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Use a value from 200 to 1000 */
+  font-style: normal; 
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
 body
 {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
